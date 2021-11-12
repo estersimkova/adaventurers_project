@@ -12,6 +12,7 @@ The ADAventurers - Lucas Brunschwig, Ioannis Mavrothalassitis, Axelle Piguet, Es
 2. [Proposed additional datasets](#3)
 3. [Methods](#4)
 4. [Proposed project timeline](#5)
+4. [Questions for the TAs](#6)
 
 ## 0. Abstract: <a name="1"></a>
 
@@ -43,8 +44,8 @@ The methods to do our project will be the following:
 
 1. Identification of events
 	1. To identify events, we have to first regroup quotes into topics. To do that, we will follow the Latent Dirichlet Allocation method using [the following tutorial](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0), suggested by our TA.
-We do this by selecting an appropriate time window, for example one month, to see the topics that emerge during this timeframe, so monthly during the years 2015-2020.
-	2. Once we have a list of topics for each month, we choose a frequency threshold and only consider topics that appear in the newspaper at a frequency above this frequency threshold as a significant event. 
+We do this by selecting an appropriate time window, for example one month, to see the topics that emerge during this timeframe during the years 2015-2020.
+	2. Once we have a list of topics for each time-period, we choose a frequency threshold and only consider topics that appear in the newspaper at a frequency above this frequency threshold as a significant event. 
 Our hypothesis would be that if a topic becomes hot beyond a certain frequency threshold (i.e. very often mentioned in a time window), it is probably related to an event having occurred. However, if a certain topic is present in almost all of the time windows, it is probably a general society preoccupation and is probably not related to a particular event, so we would have to take note of that and only look at the monthly frequency variation.
 	3. Manual research: We then check if no major events were forgotten and, to do so, find a database that relates major events of each year and see if we accurately found the majority. This step will help us to validate our timeline (and by doing so, our research hypothesis) and be sure that it does not have too much bias.
 External time-line: for instance, the [CNBC website](https://www.cnbc.com/2015/12/31/major-global-events-that-shook-2015.html) (here for 2015) relates the major events that happened during each calendar year.
@@ -85,7 +86,9 @@ During these 3 weeks, we will:
 
 During this whole time, we will also progressively create the required website to show our results.
 	
+## 5. Questions for the TAs: <a name="6"></a>
 
+We were wondering if you had any advice about how to improve our method of finding topics from quotes ? It is quite hard to infere events occuring from our LDA analysis for now.
 
 
 
