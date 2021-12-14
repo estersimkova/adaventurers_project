@@ -32,9 +32,13 @@ data_year.sort_values(by=['date'], inplace=True, ascending=True)
 data_year["topic_number"]=topics_assignation
 data_year["topic_prob"]=prob_assignation
 
+
 print("\nExample of the format")
 print(data_year.columns)
 print(data_year.head())
+print()
+print(topic_list.columns)
+print(topic_list.head())
 
 print("\nDone: Bert Topic Analysis\n")
 
@@ -42,11 +46,10 @@ print("\nDone: Bert Topic Analysis\n")
 # Saving Topics
 
 print("Saving Data:")
-data_year.to_pickle(f"results/bertopic/Quotes_with_topics_{len(data_year)}.pkl")
-for i,list_ in enumerate(topic_list):
-    list_.to_pickle(f"results/bertopic/topics_month_{i+1}_{len(data_year)}.pkl")
+data_year.to_pickle(f"results/bertopic/2015_quotes_with_topics_{len(data_year)}.pkl")
+topic_list.to_pickle(f"results/bertopic/2015_topics_by_month_{len(data_year)}.pkl")
 print("Done savings Data")
 
 #--------------------------------------------------------#
 # End of topic extractions
-print("\nYou can find the results in results/bertopic/ folder")
+print("\nYou can find the results in \"results/bertopic/\" folder")

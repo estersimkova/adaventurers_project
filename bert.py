@@ -17,9 +17,11 @@ from nltk.corpus import stopwords
 # Import sentence transformer
 from sentence_transformers import SentenceTransformer
 
-#
+# bertopic
 from bertopic import BERTopic
 
+# Used to store results
+import pandas as pd
 import numpy as np
 
 
@@ -77,7 +79,7 @@ def get_year_topics(df_quotes):
 
     topic_assignation= []
     prob_assignation = []
-    topic_list = []
+    topic_list = pd.DataFrame(columns=["Topic", "Count", "Name", "Words", "Month"])
     months = range(1,13)
     n_topics = 0
 
@@ -86,6 +88,7 @@ def get_year_topics(df_quotes):
     for month in months:
 
         topic_assigned, probs, topic_model = topics_by_month(df_quotes,month)
+
         print(f"    month: {month}, number of quotes: {len(probs)}")
 
         tmp_list = []
@@ -96,17 +99,17 @@ def get_year_topics(df_quotes):
             topics_numerotation.append(i)
 
         topics_month = topic_model.get_topic_info().copy()
-        topics_month["words"] = tmp_list
-
-        # to have a consistent numerotation with previous month
+        topics_month["Words"] = tmp_list
         topics_month["Topic"] = (np.array(topics_numerotation) + n_topics).tolist()
+        topics_month["Month"]=month
+
         topic_assigned = (np.array(topic_assigned) + n_topics).tolist()
 
         n_topics+=len(topics_month)
 
-        # adds the topics list, assignation and probability
-        topic_list.append(topics_month)
+        topic_list = pd.concat([topic_list,topics_month],ignore_index=True)
         topic_assignation.append(topic_assigned)
         prob_assignation.append(probs)
+
 
     return topic_assignation, prob_assignation, topic_list

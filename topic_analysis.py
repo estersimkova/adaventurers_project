@@ -51,6 +51,5 @@ print()
 print(quote_year[quote_year.topics_number == topic_number][0:10].quotation.values)
 
 
-
 #--------------------------------------------------------#
 # Next Analysis
