@@ -1,6 +1,6 @@
 # Just listen to what people have to say and you'll never have to read a newspaper again!
 
-Thank you for visiting our website! We, the adaventurers, are happy to present the outcome of our project based on the quotebank datasets.
+Thank you for visiting our website! We, the adaventurers, are happy to present the outcome of our project.
 
 * The Adaventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova
 * Last Modification: 15.12.2021
@@ -19,7 +19,7 @@ Using this dataset, our research questions were the following :
 ## 1. Hot Topics evolution over the years
 
 ### 1.1 Methodology: 
-
+The Quotebank dataset provide more than a 100 millions quotes over x years. We decided to focus on the year 2015-2020, for each of these year we selected a maximum of 100'000 quotes each month. Then, we used the google model Bertopic to extract the topics (cite the bertopic) to extract the topics and associate each quote to a specific topic with a given probability. Using the most hot topics, meaning the ones that have the most quotes associated, we looked into the associated word and the most probable quotes. 
 
 
 ## 2. How a topic and the associated quotes can be associated to an event
