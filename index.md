@@ -1,7 +1,11 @@
-## Creating an event time-line from 2015 to 2020 using only newspaper quotes
+# Just listen to what people have to say and you'll never have to read a newspaper again!
 
+Thank you for visiting our website! We, the adaventurers, are happy to present the outcome of our project based on the quotebank datasets.
 
-### Project context and research questions 
+* The Adaventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova
+* Last Modification: 15.12.2021
+
+## 0. Project context and research questions 
 
 This project was done in the context of the Applied Data Analysis course at EPFL given by professor Robert West. 
 We were provided with the [Quotebank dataset](https://zenodo.org/record/4277311#.YbntzrvTWV4), containing newspaper quotes from 2015 to the beginning of 2020.
@@ -12,11 +16,26 @@ Using this dataset, our research questions were the following :
 
 2. When an important event occurs, does the general sentiment from quotes regarding the topic evolve ?
 
-...
+## 1. Hot Topics evolution over the years
 
-Thank you for reading ! :)
+### 1.1 Methodology: 
 
 
-### Authors:
 
-The ADAventurers - Lucas Brunschwig, Ioannis Mavrothalassitis, Axelle Piguet & Ester Simkova
+## 2. How a topic and the associated quotes can be associated to an event
+
+### 2.1 Topics linked with an event
+
+### 2.2 Timeline comparison
+
+
+## 3. How an events affect the quotes linked to a topic, 3 cases
+
+### 3.1 cases 1
+
+### 3.2 cases 2
+
+### 3.3 cases 3
+
+
+
