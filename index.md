@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Creating an event time-line from 2015 to 2020 using only newspaper quotes
 
-You can use the [editor on GitHub](https://github.com/estersimkova/adaventurers_project/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Project context and research questions 
 
-### Markdown
+This project was done in the context of the Applied Data Analysis course at EPFL given by professor Robert West. 
+We were provided with the [Quotebank dataset](https://zenodo.org/record/4277311#.YbntzrvTWV4), containing newspaper quotes from 2015 to the beginning of 2020.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Using this dataset, our research questions were the following :
 
-```markdown
-Syntax highlighted code block
+1. Are newspapers’ quotes representative of events occurring in the world ? Meaning, can we deduce a time-line of important events that happened in the world during a certain time-frame only from topics emerging from newspaper quotes ?
 
-# Header 1
-## Header 2
-### Header 3
+2. When an important event occurs, does the general sentiment from quotes regarding the topic evolve ?
 
-- Bulleted
-- List
+...
 
-1. Numbered
-2. List
+Thank you for reading ! :)
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+### Authors:
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/estersimkova/adaventurers_project/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+The ADAventurers - Lucas Brunschwig, Ioannis Mavrothalassitis, Axelle Piguet & Ester Simkova
