@@ -29,7 +29,7 @@ The Quotebank dataset provide more than a 100 millions quotes over x years. We d
 ### 2.2 Timeline comparison
 
 
-## 3. How an events affect the quotes linked to a topic, 3 cases
+## 3. How an events can affect the general sentiments of the society towards a subject
 
 ### 3.1 cases 1
 
