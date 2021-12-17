@@ -5,6 +5,7 @@
 Thank you for visiting our website ! We, the ADAventurers, are happy to present the outcome of our project.
 
 The ADAventurers: Lucas Brunschwig, John Mavrothalassitis, Axelle Piguet, Ester Simkova
+
 ### Project context and research questions
 
 This project was done in the context of the Applied Data Analysis course at EPFL given by professor Robert West.
