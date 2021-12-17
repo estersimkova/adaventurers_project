@@ -75,4 +75,4 @@ Then, we can see with sentiment analysis that...
 
 
 
-Thank you very much for reading ! :)
+Thank you very much for reading !
