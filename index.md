@@ -1,3 +1,5 @@
+<img src="./epfl-logo.png" width="300" height="200" />
+
 ## Can we create an event time-line from 2015 to 2020 using only newspaper quotes ?!
 
 Thank you for visiting our website ! We, the ADAventurers, are happy to present the outcome of our project.
@@ -33,7 +35,7 @@ To answer the second question, and so to perform sentiment analysis, we used a [
 
 #### Time-line creation
 
-You can see here the time-line we obtained for a few chosen months and for each year. [to complete and COMMENT]
+You can see here the time-line we obtained for a few chosen months and for each year. 
 
 To assess the performance of our time-line, we first compare the topics we found with the most important events that happened every year according to [Usatoday](https://eu.usatoday.com/story/money/2020/09/06/the-worlds-most-important-event-every-year-since-1920/113604790/) to see if BERTopic caught them. 
 
@@ -47,18 +49,17 @@ These are:
 
 These topics can be seen to be quite US-centric. However, the newspapers from which the quotes originate in the Quotebank dataset are from Western countries and often the US, so it is quite coherent.
 
-We can see that for … [to complete with wanted months]
-
+We can see that for ….
 
 #### Sentiment analysis
 
-For the sentiment analysis regarding a particular topic before and after a certain event occurred, looking at the obtained time-line, we chose to focus on [to complete]
+For the sentiment analysis regarding a particular topic before and after a certain event occurred, looking at the obtained time-line, we chose to focus on ...
 
 - Hong-kong protests in March 2019: how China is mentioned in the media
 - Opinion of Trump before and after his election in November 2019
 
 
-### Conclusion [to change with the final results]
+### Conclusion 
 
 To conclude, let’s go back to the two questions we asked ourselves in the beginning:
 
@@ -69,9 +70,9 @@ To conclude, let’s go back to the two questions we asked ourselves in the begi
 With the data analysis shown above, we can now answer, at least partially, these questions.
 
 First, we showed that it is very complicated to find events occurring in the world only from quotes in newspapers, even using one of the most performant NLP (natural language processing) models available now-a-days: BERT.
-However, we can still come up with meaningful topics [modify afterwards according to results]
+However, we can still come up with meaningful topics ..
 
-Then, we can see with sentiment analysis that [modify afterwards according to results]
+Then, we can see with sentiment analysis that...
 
 
 
